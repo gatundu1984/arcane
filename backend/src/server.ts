@@ -1,1 +1,3 @@
-console.log("server");
+import { initializeServer } from "./app";
+
+initializeServer();

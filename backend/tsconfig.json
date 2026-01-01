@@ -22,7 +22,9 @@
     "exactOptionalPropertyTypes": true,
 
     /* Quality of life */
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
