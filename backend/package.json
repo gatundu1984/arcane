@@ -1,7 +1,7 @@
 {
-  "name": "arcane-core",
+  "name": "acend-core",
   "version": "1.0.0",
-  "description": "Crash betting application",
+  "description": "Skill-based multiplayer tournament platform where players compete for top spots and win real cash prizes",
   "license": "ISC",
   "author": "Brian Gatundu",
   "type": "commonjs",
