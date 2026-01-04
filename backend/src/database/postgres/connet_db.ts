@@ -2,7 +2,7 @@ import { drizzle } from "drizzle-orm/node-postgres";
 import { ICONS } from "../../constants/icons";
 
 const db = drizzle({
-  connection: { connectionString: process.env.DATABASE_URL! },
+  connection: process.env.DATABASE_URL!,
 });
 
 export async function connectDb(maxRetries = 5) {
